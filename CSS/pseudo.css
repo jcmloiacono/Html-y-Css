@@ -1,0 +1,50 @@
+.first {
+    border: black 2px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.first p:first-child {
+    color: blueviolet;
+}
+
+a:link {}
+
+a:visited {
+    color: red;
+}
+
+.hover {
+    width: 100px;
+    height: 100px;
+    background: coral;
+}
+
+.hover:hover {
+    width: 100px;
+    height: 100px;
+    background: rgb(109, 29, 1);
+}
+
+.active {
+    background-color: darkgreen;
+    color: rgb(214, 213, 193);
+}
+
+.active:active {
+    background-color: rgb(22, 43, 22);
+    color: rgb(214, 213, 193);
+}
+
+input:focus {
+    border: blue 2px solid;
+    padding: 2px;
+}
+
+.before:before {
+    content: "Esto es Before ";
+}
+
+.after::after {
+    content: " Esto es After";
+}

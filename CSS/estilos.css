@@ -1,0 +1,144 @@
+/* AQUI TENEMOS TODAS LAS CONFIGURACIONES GLOBALES */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+html {
+    background-color: rgb(209, 202, 202);
+    color: rgb(62, 62, 62);
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+section {
+    padding: 50px;
+}
+
+
+/* encabezado */
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 400%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 200%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: rgb(15, 99, 167);
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+/* nav */
+
+
+/* home */
+
+header {
+    background-image: linear-gradient(rgba(41, 40, 40, 0.705), rgba(36, 36, 36, 0.705)), url(../img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    height: 200px;
+    width: auto;
+    float: left;
+    margin-left: 90px;
+}
+
+.nav {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    transition: border-bottom 0.3s;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid rgb(15, 99, 167);
+}
+
+.home {
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    transform: translate(50%, 50%);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 2px solid rgb(15, 99, 167);
+    color: white;
+    margin-right: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-more:hover {
+    background-color: rgb(15, 99, 167);
+    color: black
+}
+
+.btn-contact {
+    color: white;
+}
+
+.btn-contact:hover {
+    background-color: rgb(15, 99, 167);
+}
+
+
+/* seccion -- Quien soy */
+
+.how_i_am {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}

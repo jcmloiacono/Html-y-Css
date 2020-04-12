@@ -1,0 +1,36 @@
+img {
+    float: right;
+    width: 170px;
+    height: 170px;
+    margin-left: 15px;
+}
+
+.ima2 {
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin-right: 15px;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    padding: 10px;
+    background: grey;
+    display: block;
+}
+
+.linea {
+    padding: 10px;
+    background: pink;
+    display: inline;
+}
+
+.line {
+    padding: 10px;
+    background: violet;
+    display: inline-block;
+    width: 150px;
+}

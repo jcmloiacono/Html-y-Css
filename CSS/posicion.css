@@ -1,0 +1,45 @@
+.pri {
+    width: 800px;
+    height: 800px;
+    background-color: silver;
+    margin: auto;
+}
+
+.sec {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    position: static;
+    left: 150px;
+    top: 150px;
+}
+
+.ter {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(143, 47, 71);
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+.cua {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(55, 82, 141);
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+
+/* este sirve para hacer la barra movil */
+
+.qui {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: fixed;
+    left: 280px;
+    top: 150px;
+}

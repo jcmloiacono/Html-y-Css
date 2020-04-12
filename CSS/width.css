@@ -1,0 +1,44 @@
+div {
+    background-color: rgb(97, 107, 196);
+}
+
+.width {
+    width: 400px;
+}
+
+.max-width {
+    max-width: 600px;
+}
+
+.min-width {
+    min-width: 400px;
+}
+
+.height {
+    height: 50px;
+}
+
+.min-max {
+    min-height: 50px;
+    max-height: 60px;
+}
+
+p {
+    background: yellowgreen;
+    width: 400px;
+}
+
+.p-p {
+    padding: 20px 30px 40px 50px;
+}
+
+.d {
+    background-color: chocolate;
+    width: 300px;
+    height: 200px;
+}
+
+.box-p {
+    padding: 90px;
+    box-sizing: border-box;
+}
